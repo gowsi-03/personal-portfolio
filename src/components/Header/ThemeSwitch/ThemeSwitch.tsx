@@ -6,7 +6,7 @@ export interface Props {
 
 const ThemeSwitch = ({ className }: Props) => {
   return (
-    <div className={clsx(className)}>
+    <div className={clsx(className,"flex-1", "", "",)}>
       <span>Theme</span>
     </div>
   );
