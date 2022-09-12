@@ -1,12 +1,12 @@
 import clsx from 'clsx'
-// import { useTranslation } from 'react-i18next'
+import { useTranslation } from 'react-i18next'
 
 export interface Props {
   className?: string
 }
 
 const Title = ({ className }: Props) => {
-  // const { t } = useTranslation()
+  const { t } = useTranslation()
 
   return (
     <h1
@@ -15,12 +15,10 @@ const Title = ({ className }: Props) => {
         'flex justify-center',
         'font-accent font-bold',
         'text-5xl md:text-6xl lg:text-7xl',
-        '-rotate-3 -translate-y-10 md:-translate-y-15 lg:-translate-y-10',
-        // 'animate-bounce'
+        '-rotate-3 -translate-y-10 md:-translate-y-15 lg:-translate-y-10'
       )}
     >
-      <span>Gowsi</span>
-      {/* {t('Hero.title')} */}
+      {t('Hero.title')}
     </h1>
   )
 }

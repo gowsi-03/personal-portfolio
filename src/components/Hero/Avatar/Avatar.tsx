@@ -1,17 +1,18 @@
-import clsx from "clsx";
-import avatar from "./gowsigan-profile.png";
+import clsx from 'clsx'
+import avatarImage from './gowsigan-profile.png'
+
 export interface Props {
-  className?: string;
+  className?: string
 }
 
 const Avatar = ({ className }: Props) => {
   return (
     <div
-      className={clsx(className, "mx-auto flex justify-center w-48 lg:w-56")}
+      className={clsx('mx-auto flex justify-center w-48 lg:w-56', className)}
     >
-      <img alt="Profile avatar" src={avatar} />
+      <img alt="Profile avatar" src={avatarImage} />
     </div>
-  );
-};
+  )
+}
 
-export default Avatar;
+export default Avatar

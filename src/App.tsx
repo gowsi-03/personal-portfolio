@@ -1,3 +1,4 @@
+import './i18n'
 import Biography from "./components/Biography";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
