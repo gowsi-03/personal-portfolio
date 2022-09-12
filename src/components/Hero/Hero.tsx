@@ -21,6 +21,7 @@ const Hero = ({ className }: Props) => {
           t('Hero.subtitle.reactDev'),
           t('Hero.subtitle.cricketPlayer'),
           t('Hero.subtitle.hobbyPhotographer'),
+          t('Hero.subtitle.traveller')
         ]}
         typeSpeed={120}
         backSpeed={50}

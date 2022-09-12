@@ -1,6 +1,6 @@
 {
     "Biography": {
-      "bio1": "My name is Prasath S. ",
+      "bio1": "My name is Gowsigan P. ",
       "bio2": "I am a React developer graduating from ",
       "bio3": "Uki Coding School ",
       "bio4": "this summer (Uki cohort 2022). ",
@@ -17,7 +17,8 @@
       "subtitle": {
         "reactDev": "React developer",
         "cricketPlayer": "Cricket player",
-        "hobbyPhotographer": "Hobby photographey"
+        "hobbyPhotographer": "Photographer",
+        "traveller":"Traveller"
       }
     },
     "LangSwitch": {

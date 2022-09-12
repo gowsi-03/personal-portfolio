@@ -1,6 +1,6 @@
 {
     "Biography": {
-      "bio1": "என் பெயர் பிரசாத் சூ. ",
+      "bio1": "என் பெயர் கெளசிகன்  P. ",
       "bio2": "நான் ",
       "bio3": "Uki Coding School ",
       "bio4": "பட்டம் பெற்ற ரியாக்ட் டெவலப்பர் ",
@@ -13,11 +13,12 @@
       "email": "மின்னஞ்சல் "
     },
     "Hero": {
-      "title": "பிரசாத் சூ.",
+      "title": "கெளசிகன்  P.",
       "subtitle": {
         "reactDev": "React developer",
         "cricketPlayer": "கிரிக்கெட் வீரர்",
-        "hobbyPhotographer": "பொழுதுபோக்கு புகைப்படக்காரர்"
+        "hobbyPhotographer": "புகைப்படக்காரர்",
+        "traveller":"பயணி"
       }
     },
     "LangSwitch": {
